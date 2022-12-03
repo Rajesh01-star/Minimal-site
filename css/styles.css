@@ -19,7 +19,7 @@ body {
   max-width: 2000px;
   margin: auto;
   font-family: "Lora", serif;
-  height:100vh;
+  height:100%;
   line-height: 1.4em;
   color: var(--fg-color);
   background-color: var(--bg-color);

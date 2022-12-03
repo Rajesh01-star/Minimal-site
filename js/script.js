@@ -3,7 +3,7 @@ function randomNumber(min, max) {
 }
 
 function getRandomImage() {
-  path = "https://bugswriter.com/pics/";
+  path = "https://bugswriter.com/images/grunge/";
   var num = randomNumber(1000, 1194);
   var img = path + num + ".jpg";
   return img;

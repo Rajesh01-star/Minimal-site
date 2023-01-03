@@ -46,5 +46,7 @@ document.getElementById("submit").addEventListener("click", function (event) {
   let paswd = document.getElementById("paswd");
   if (paswd.value === "vibha") {
     window.location.href = "/psswd.html";
+  } else {
+    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
   }
 });

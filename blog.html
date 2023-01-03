@@ -6,9 +6,9 @@
     <title>atharv's blog</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/png" href="favicon/favicon.ico">
-    <script src="js/script.js"></script>
   </head>
   <body>
     <header>
@@ -30,6 +30,14 @@
 	<span>To live in that bubble of the naive. ❞</span>
       </blockquote>
     </header>
+	<section class="modal hidden">
+		<form>
+	  		<label for="paswd">Password:</label>
+			<input id ="paswd" type="password" placeholder="password please" autofocus />
+			<button id="submit">submit</button>
+		</form>
+	</section>
+	<div class="overlay hidden animate__animated animate__fadeIn"></div>
     <main>
       
 <center>
@@ -45,6 +53,9 @@ Assuming you...</p>
 <p>It doesn't matter if everything's good or not if you feel alone -- you feel alone there's no way around it.Even when you're surrounded with ...</p>
 <center><a href="mental-health.html"><img  src="pixz/Screenshot(1).png" alt="first-rice" style = "width:400px"></a></center>
 <br>
+<h2><a class="openBtnClass" >Secret to protect</a></h2>
+<p>No insights on this one Please insert the password if you have it.</p>
+<center><img id="openBtn" src="pixz/secret-thumbnail.png" alt="first-rice" style = "width:400px"></center>
     </main>
     <footer>
       <div>
@@ -58,5 +69,7 @@ Assuming you...</p>
 	<!-- <p>Well this site is heavily inspired by @bugswriter's home page</p> -->
       </p>
     </footer>
+
+<script src="js/script.js" ></script>
   </body>
 </html>
